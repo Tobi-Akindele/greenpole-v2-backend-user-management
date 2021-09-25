@@ -1,0 +1,17 @@
+
+ALTER TABLE users
+ADD COLUMN job_description VARCHAR;
+
+INSERT INTO permissions(value) VALUES ('CREATE_USER');
+INSERT INTO permissions(value) VALUES ('VIEW_PERMISSION');
+INSERT INTO permissions(value) VALUES ('CREATE_PERMISSION');
+INSERT INTO permissions(value) VALUES ('MODIFY_PERMISSION');
+INSERT INTO permissions(value) VALUES ('VIEW_ROLE');
+INSERT INTO permissions(value) VALUES ('CREATE_ROLE');
+INSERT INTO permissions(value) VALUES ('MODIFY_ROLE');
+INSERT INTO permissions(value) VALUES ('VIEW_USER_ROLE');
+INSERT INTO permissions(value) VALUES ('ASSIGN_USER_ROLE');
+INSERT INTO permissions(value) VALUES ('MODIFY_USER_ROLE');
+INSERT INTO permissions(value) VALUES ('VIEW_USER_PERMISSION');
+INSERT INTO permissions(value) VALUES ('ASSIGN_USER_PERMISSION');
+INSERT INTO permissions(value) VALUES ('MODIFY_USER_PERMISSION');
